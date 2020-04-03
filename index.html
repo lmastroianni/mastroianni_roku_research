@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- video player links -->
+
+    <!-- Favicon -->
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="images/logo_o.ico"> -->
+    <link type="text/css" rel="stylesheet" href="https://ozplayer.global.ssl.fastly.net/3.5/ozplayer-core/ozplayer.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://ozplayer.global.ssl.fastly.net/3.5/ozplayer-skin/highlights-blue.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://ozplayer.global.ssl.fastly.net/3.5/transcript.css" media="all" />
+<script type="text/javascript" src="https://ozplayer.global.ssl.fastly.net/3.5/ozplayer-core/mediaelement.min.js"></script>
+
+   <!-- CSS links -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <title>Accessibility Assignment</title>
+</head>
+<body>
+    <header>
+       
+    </header>
+
+<!-- This section is required only once per page, before any videos appear. -->
+<link type="text/css" rel="stylesheet" href="https://ozplayer.global.ssl.fastly.net/3.5/ozplayer-core/ozplayer.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://ozplayer.global.ssl.fastly.net/3.5/ozplayer-skin/highlights-blue.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://ozplayer.global.ssl.fastly.net/3.5/transcript.css" media="all" />
+<script type="text/javascript" src="https://ozplayer.global.ssl.fastly.net/3.5/ozplayer-core/mediaelement.min.js"></script>
+
+<!-- This section is per video -->
+<section id="tvshow">
+<figure id="ozplayer-1-container" class="ozplayer-container">
+<div  data-responsive="ozplayer-1-container" data-controls="stack" class="ozplayer" id="ozplayer-1" data-transcript="ozplayer-1-transcript" >
+<video  controls="controls" preload="none">
+<source src="https://www.youtube.com/watch?v=SOsbYJ4CfTA" type="video/x-youtube"></source>
+<!-- <track src="captions/ozplayer-1-transcript.vtt" kind="captions" srclang="Canada" default="default" ></track>
+<div class="ozplayer-fallback"><ul><li><a href="https://www.youtube.com/watch?v=SOsbYJ4CfTA">Video for playback</a></li></ul></div> -->
+</video>
+</div>
+<details class="ozplayer-expander" open="open">
+<summary>Video Transcript</summary>
+<div id="ozplayer-1-transcript" class="ozplayer-transcript"></div>
+</details>
+</figure>
+</section>
+
+
+<!-- This section is per video -->
+<section id="movie">
+   
+    <a href=""></a>
+    <figure id="container1" class="ozplayer-container">
+        <div  data-responsive="container1" data-controls="stack" class="ozplayer" id="trailer" data-transcript="transcript" >
+        <video  controls="controls" preload="none">
+        <source src="https://www.youtube.com/watch?v=3aQuvPlcB-8" type="video/x-youtube"></source>
+        <!-- <track src="frozen-trailer-captions.vtt" kind="metadata" data-kind="transcript" srclang="en" ></track> -->
+        <div class="ozplayer-fallback"><ul><li><a href="https://www.youtube.com/watch?v=3aQuvPlcB-8">Video for playback</a></li></ul></div>
+        </video>
+        </div>
+        <details class="ozplayer-expander" open="open">
+        <summary>Video Transcript</summary>
+        <div id="transcript" class="ozplayer-transcript"></div>
+        </details>
+    </figure>
+
+</section>
+
+<!-- This section is per video -->
+<figure id="audio-container" class="ozplayer-container">
+    <figcaption>One Of These Nights - The Eagles</figcaption>
+    <div  data-responsive="audio-container" data-controls="stack" class="ozplayer" id="audio" data-transcript="audio-transcript" >
+    <!-- <video  controls="controls" preload="none"> -->
+    <audio
+        controls
+        src="audio/eagles.mp3">
+    </audio>
+    <track src="captions/eagles.vtt" kind="captions" srclang="en" default="default" ></track>
+    <!-- <track src="audio-captions.vtt" kind="metadata" data-kind="transcript" srclang="en" ></track> -->
+    <!-- <div class="ozplayer-fallback"><ul><li><a href="https://www.youtube.com/watch?v=suVQt0pfOLc">Video for playback</a></li></ul></div> -->
+    </video>
+    </div>
+    <details class="ozplayer-expander" open="open">
+    <summary>Video Transcript</summary>
+    <div id="audio-transcript" class="ozplayer-transcript"></div>
+    </details>
+</figure>
+
+
+<!-- This section is once per page, but after all the videos -->
+<script type="text/javascript" src="https://ozplayer.global.ssl.fastly.net/3.5/ozplayer-core/ozplayer.free.js"></script>
+<script type="text/javascript" src="https://ozplayer.global.ssl.fastly.net/3.5/ozplayer-lang/Canada.js"></script>
+<script type="text/javascript" src="https://ozplayer.global.ssl.fastly.net/3.5/config.js"></script>
+
+<footer>
+    <h1>Lucas Mastroianni. ALL Rights Reserved.</h1>
+</footer>
+
+</html>
+
+     <!-- Accessibility Code Script link -->
+     <script>
+        (function(doc, head, body){
+            window.interdeal = {
+                sitekey  : "9efd1cc4f570fd620cc5ef3ce870e07d",
+                Position : "Left",
+                Menulang : "EN",
+                btnStyle : {
+                    vPosition : ["50%", undefined],
+                    scale : [0.7, 0.7],
+                    icon : {
+                            type : 11,
+                            shape : "semicircle",
+                            outline : false
+                        },
+                    color : {
+                        main : "#5663eb",
+                        second : "#ffffff"
+                    }
+                }
+            };
+            var coreCall             = doc.createElement('script');
+            coreCall.src             = 'https://cdn.equalweb.com/core/2.0.7/accessibility.js';
+            coreCall.defer           = true;
+            coreCall.integrity       = 'sha512-I5mpAzD33VLeDeg+yaCpP8hPXDSn/9JoRrA/mrWZyqyQXtgpW9W4RvZOx5E0FxQydYR3lpdwIbQm+o4lGYoQ8A==';
+            coreCall.crossOrigin     = 'anonymous';
+            coreCall.setAttribute('data-cfasync', true );
+            
+            body? body.appendChild(coreCall) : head.appendChild(coreCall);
+        })(document, document.head, document.body);
+        </script>
+
+    
+    <!-- <script src="js/main.js" type="module"></script> -->
+</body>
+</html>
