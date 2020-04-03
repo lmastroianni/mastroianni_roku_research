@@ -5,6 +5,10 @@ This is a Roku style flashback app that was designed and made to better my under
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+localhost:8888 Using MAMP/ WAMP:
+
+Move the project folder into either your 'htdocs' or 'WWW' folder within MAMP or WAMP. Then navigate to your MAMP or WAMP server page and select the project.
+
 ## Built With
 HTML5 - Layout
 Equal Web - JS Accessability tool
